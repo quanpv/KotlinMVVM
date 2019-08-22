@@ -72,4 +72,7 @@ dependencies {
 
     // optional - RxJava support for Room
     implementation 'androidx.room:room-rxjava2:2.0.0-rc01'
+
+    kaptAndroidTest 'com.google.dagger:dagger-compiler:2.16'
+    kaptAndroidTest "com.google.dagger:dagger-android-processor:$DAGGER_VERSION"
 }
